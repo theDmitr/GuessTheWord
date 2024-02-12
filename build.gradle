@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'dmitr.game'
+version = '1.0-SNAPSHOT'
+mainClassName = 'dmitr.game.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+run {
+    standardInput = System.in
+}
